@@ -42,8 +42,8 @@ function setupSchools(){
         tSearchID: ['MM'],
     },{
         name: 'Others',
-        tData: ['Breadths', 'Laterals', 'IDT Courses'], //Suggest a proper name for IDT Courses
-        tSearchID: ['BRD', 'LAT', 'IDT'] //Suggest proper codes
+        tData: ['IDT Courses'], //Suggest a proper name for IDT Courses
+        tSearchID: ['ID'] //Suggest proper code
     }];
     
     // Stores each branch template as a refernce
