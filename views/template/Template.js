@@ -71,7 +71,7 @@ function branchOnClick(){
         $('.cardContainer').empty();
 
         // Change heading to subjects
-        $('#branchLists h3').text('Subjects')
+        $('#branchLists h3').text(branchID);
 
 
         // Create a button to return to previous page
@@ -180,7 +180,8 @@ class SubjectTemplate{
               let clone = template.prop('content');
 
               // Sets heading
-              let semHeading = $(clone).find('h3');
+              let subHeading = $(clone).find('h3');
+              subHeading.text('Subjects');
 
               // Fills the semester-i's template with the courses
               this.fillSubjects($(clone).find('.links'), this.subArray);
