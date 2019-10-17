@@ -121,7 +121,7 @@ class BranchTemplate{
     }
     propagateTemplate(){
         if ('content' in document.createElement('template')) {
-            var template = $('#myTemplate');
+            var template = $('#schoolTemplate');
             var container = $('.cardContainer');
 
             let clone = template.prop('content');
