@@ -5,17 +5,54 @@
 // all the academic resources available in the specified course code.
 
 var getResourcesByCode = function(subjectCode){
-    let jsArray  = jsResourcesByCode(subjectCode);  //calling model function
+    var jsArray  = jsResourcesByCode(subjectCode);  //calling model function
+    console.log(jsArray);
+    // let obj = {
+    //   endsem : [],
+    //   midsem : [],
+    //   tutorial : [],
+    //   quiz : [],
+    //   others : []
+    // };
+    // jsArray.forEach(function(item){
+    //     let tp = item.type;
+    //     (obj[tp]).push(item);
+    // });
+    //console.log(jsArray.length,"yes");
+    var len = jsArray.length;
+  //
+  //   var i;
+  //   for(i = 0; i<len ;i++){
+  //   let s = jsArray[i].type;
+  //   Object.entries(obj)[s]
+  // }
+    var i;
+    var endsem = [];
+    var midsem = [];
+    var tutorial = [];
+    var quiz = [];
+    var others = [];
+    for(i = 0; i<len ; i++){
+      if(jsArray[i].type === "endsem")
+      endsem.push(jsArray[i]);
+      else if(jsArray[i].type === "midsem")
+      midsem.push(jsArray[i]);
+      else if(jsArray[i].type === "tutorial")
+      tutorial.push(jsArray[i]);
+      else if(jsArray[i].type === "quiz")
+      quiz.push(jsArray[i]);
+      else if(jsArray[i].type === "others")
+      others.push(jsArray[i]);
+    }
+
     let obj = {
-      endsem : [],
-      midesem : [],
-      tutorial : [],
-      quiz : [],
-      others : []
+      endsem : endsem,
+      midsem : midsem,
+      tutorial : tutorial,
+      quiz : quiz,
+      others : others
     };
-    jsArray.forEach(function(item){
-        obj[item.type].push(item);
-    });
+    console.log(obj);
     return obj;
 };
 

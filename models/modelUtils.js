@@ -108,13 +108,16 @@ var jsResourcesByCode = function(subjectCode){
         {
           emailId: 'ajk999@iitbbs.ac.in',
           year: '2017',
-          type: 'other',
+          type: 'others',
           semester: 'autumn',
           subjectName: 'Data Structure',
           flags: '0',
           subjectCode: 'CS2L003',
           resourceId: 'CS2L003050001'
-        },
+        }];
+      }
+      if(subjectCode==='CS1L001'){
+        jsArray=[
         {
           emailId: 'aaa999@iitbbs.ac.in',
           year: '2017',
@@ -198,7 +201,7 @@ var jsResourcesByCode = function(subjectCode){
         {
           emailId: 'ajk999@iitbbs.ac.in',
           year: '2017',
-          type: 'other',
+          type: 'others',
           semester: 'spring',
           subjectName: 'Programming and Data Structure',
           flags: '0',
@@ -288,7 +291,7 @@ var jsResourcesByCode = function(subjectCode){
         {
           emailId: 'ajk999@iitbbs.ac.in',
           year: '2017',
-          type: 'other',
+          type: 'others',
           semester: 'autumn',
           subjectName: 'Discrete Structure',
           flags: '0',
@@ -380,7 +383,7 @@ var jsResourcesByCode = function(subjectCode){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Discrete Structure',
     flags: '0',
@@ -474,7 +477,7 @@ if(branch==='EE'){
 {
   emailId: 'ajk999@iitbbs.ac.in',
   year: '2017',
-  type: 'other',
+  type: 'others',
   semester: 'spring',
   subjectName: 'Network Theory',
   flags: '2',
@@ -566,7 +569,7 @@ if(branch==='EE'){
 {
   emailId: 'ajk999@iitbbs.ac.in',
   year: '2017',
-  type: 'other',
+  type: 'others',
   semester: 'autumn',
   subjectName: 'Electric Machines',
   flags: '2',
@@ -658,7 +661,7 @@ if(branch==='EE'){
 {
   emailId: 'ajk999@iitbbs.ac.in',
   year: '2017',
-  type: 'other',
+  type: 'others',
   semester: 'spring',
   subjectName: 'Control Systems',
   flags: '2',
@@ -752,7 +755,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Theory of Machines - 1',
     flags: '2',
@@ -844,7 +847,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Heat Transfer',
     flags: '2',
@@ -936,7 +939,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'spring',
     subjectName: 'IC Engines',
     flags: '2',
@@ -1099,7 +1102,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Data Structure',
     flags: '0',
@@ -1189,7 +1192,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'spring',
     subjectName: 'Programming and Data Structure',
     flags: '0',
@@ -1279,7 +1282,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Discrete Structure',
     flags: '0',
@@ -1369,7 +1372,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'spring',
     subjectName: 'Network Theory',
     flags: '2',
@@ -1459,7 +1462,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Electric Machines',
     flags: '2',
@@ -1549,7 +1552,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'spring',
     subjectName: 'Control Systems',
     flags: '2',
@@ -1639,7 +1642,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Theory of Machines - 1',
     flags: '2',
@@ -1729,7 +1732,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'autumn',
     subjectName: 'Heat Transfer',
     flags: '2',
@@ -1819,7 +1822,7 @@ if(branch==='EE'){
   {
     emailId: 'ajk999@iitbbs.ac.in',
     year: '2017',
-    type: 'other',
+    type: 'others',
     semester: 'spring',
     subjectName: 'IC Engines',
     flags: '2',
